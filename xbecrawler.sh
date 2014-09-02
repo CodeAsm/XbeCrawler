@@ -21,22 +21,36 @@ folders=$(ls -l | grep '^d' | awk '{ print $9 }') #list all folders
 echo $folders
 echo ==================================================================
 echo -e "\033[0m" #end of the green backgroudn
-echo  -e '\E[37;44m'"\033[1mdone\033[0m"
-files=$(ls | grep "\.xbe$" -i)
-#files=xboxdash.xbe
-for fily in $files
-do
-   echo  -e '\E[37;44m'"\033[1mecho $fily\033[0m"
-  echo Testing for C: #take fily and string test content for c:\
-  strings -a $fily | grep -i -a "c:\\\\"
-  echo Testing for D:
-  strings -a $fily | grep -i -a "d:\\\\"
+# xbescan, scans for xbe files in the current folder.
+xbescan(){
+  echo  -e '\E[37;44m'"\033[1mdone\033[0m"
+  files=$(ls | grep "\.xbe$" -i)
+  #files=xboxdash.xbe
+  for fily in $files
+  do
+     echo  -e '\E[37;44m'"\033[1mecho $fily\033[0m"
+    echo Testing for C: #take fily and string test content for c:\
+    strings -a $fily | grep -i -a "c:\\\\"
+    echo Testing for D:
+    strings -a $fily | grep -i -a "d:\\\\"
 
-  echo  -e '\E[37;44m'"\033[1mend of $fily\033[0m"
-done
+    echo  -e '\E[37;44m'"\033[1mend of $fily\033[0m"
+  done
+}
 if [ "$folders" != "" ]
   then
     echo "there are folders"
+    for foly in $folders
+    do
+      cd $foly
+      echo  -e '\E[37;44m'"\033[1mend of $foly\033[0m"
+      ls -l | grep "\.xbe$" -i #list all Xbe files, upper or lower
+      
+      xbescan
+      cd ..
+    
+  echo  -e '\E[37;44m'"\033[1mend of $fily\033[0m"
+done
 fi
 echo
 echo  -e '\E[37;44m'"\033[1mDone\033[0m"
