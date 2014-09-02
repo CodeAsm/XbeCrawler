@@ -6,13 +6,19 @@ echo -e '\E[38;42m'"\033[1m" #start with green backgroudn
 echo ======================== Xbe file ================================
 ls -l | grep "\.xbe$" -i #list all Xbe files, upper or lower
 
+echo ======================== exe file ================================
 ls -l | grep "\.exe$" -i #list all exe files, upper or lower
+echo ======================== dll file ================================
 ls -l | grep "\.dll$" -i #list all dll files, upper or lower
+echo ======================== bin file ================================
 ls -l | grep "\.bin$" -i #list all bin files, upper or lower
 
-echo ======================== Sub folders =============================
-ls -l | grep '^d' | awk '{ print $9 }' #list all folders
+echo ======================== xex file ================================
+ls -l | grep "\.xex$" -i #list all bin files, upper or lower
 
+echo ======================== Sub folders =============================
+folders=$(ls -l | grep '^d' | awk '{ print $9 }') #list all folders
+echo $folders
 echo ==================================================================
 echo -e "\033[0m" #end of the green backgroudn
 echo  -e '\E[37;44m'"\033[1mdone\033[0m"
@@ -28,7 +34,11 @@ do
 
   echo  -e '\E[37;44m'"\033[1mend of $fily\033[0m"
 done
-
+if [ "$folders" != "" ]
+  then
+    echo "there are folders"
+fi
+echo
 echo  -e '\E[37;44m'"\033[1mDone\033[0m"
 tput sgr0                               # Reset colors to "normal."
 
