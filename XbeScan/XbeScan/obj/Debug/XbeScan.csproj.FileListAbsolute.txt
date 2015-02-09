@@ -1,0 +1,6 @@
+c:\users\nico\documents\visual studio 2013\Projects\XbeScan\XbeScan\bin\Debug\XbeScan.exe.config
+c:\users\nico\documents\visual studio 2013\Projects\XbeScan\XbeScan\bin\Debug\XbeScan.exe
+c:\users\nico\documents\visual studio 2013\Projects\XbeScan\XbeScan\bin\Debug\XbeScan.pdb
+c:\users\nico\documents\visual studio 2013\Projects\XbeScan\XbeScan\obj\Debug\XbeScan.csprojResolveAssemblyReference.cache
+c:\users\nico\documents\visual studio 2013\Projects\XbeScan\XbeScan\obj\Debug\XbeScan.exe
+c:\users\nico\documents\visual studio 2013\Projects\XbeScan\XbeScan\obj\Debug\XbeScan.pdb
