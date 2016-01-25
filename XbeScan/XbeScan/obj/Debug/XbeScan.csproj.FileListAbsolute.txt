@@ -4,3 +4,13 @@ c:\users\nico\documents\visual studio 2013\Projects\XbeScan\XbeScan\bin\Debug\Xb
 c:\users\nico\documents\visual studio 2013\Projects\XbeScan\XbeScan\obj\Debug\XbeScan.csprojResolveAssemblyReference.cache
 c:\users\nico\documents\visual studio 2013\Projects\XbeScan\XbeScan\obj\Debug\XbeScan.exe
 c:\users\nico\documents\visual studio 2013\Projects\XbeScan\XbeScan\obj\Debug\XbeScan.pdb
+C:\Users\CodeAsm\Source\Repos\XbeCrawler\XbeScan\XbeScan\bin\Debug\XbeScan.exe.config
+C:\Users\CodeAsm\Source\Repos\XbeCrawler\XbeScan\XbeScan\obj\Debug\XbeScan.Properties.Resources.resources
+C:\Users\CodeAsm\Source\Repos\XbeCrawler\XbeScan\XbeScan\obj\Debug\XbeScan.csproj.GenerateResource.Cache
+C:\Users\CodeAsm\Source\Repos\XbeCrawler\XbeScan\XbeScan\obj\Debug\XbeScan.csprojResolveAssemblyReference.cache
+C:\Users\CodeAsm\Source\Repos\XbeCrawler\XbeScan\XbeScan\bin\Debug\XbeScan.exe
+C:\Users\CodeAsm\Source\Repos\XbeCrawler\XbeScan\XbeScan\bin\Debug\XbeScan.pdb
+C:\Users\CodeAsm\Source\Repos\XbeCrawler\XbeScan\XbeScan\bin\Debug\objControl.dll
+C:\Users\CodeAsm\Source\Repos\XbeCrawler\XbeScan\XbeScan\bin\Debug\objControl.pdb
+C:\Users\CodeAsm\Source\Repos\XbeCrawler\XbeScan\XbeScan\obj\Debug\XbeScan.exe
+C:\Users\CodeAsm\Source\Repos\XbeCrawler\XbeScan\XbeScan\obj\Debug\XbeScan.pdb

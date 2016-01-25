@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XbeScan", "XbeScan\XbeScan.csproj", "{56ABEC67-1295-402E-8E8D-4D2B55A5A94A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "objControl", "objControl\objControl.csproj", "{A7E20B79-1141-43B6-93C8-FFF9D12DED3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{56ABEC67-1295-402E-8E8D-4D2B55A5A94A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56ABEC67-1295-402E-8E8D-4D2B55A5A94A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56ABEC67-1295-402E-8E8D-4D2B55A5A94A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E20B79-1141-43B6-93C8-FFF9D12DED3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E20B79-1141-43B6-93C8-FFF9D12DED3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E20B79-1141-43B6-93C8-FFF9D12DED3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E20B79-1141-43B6-93C8-FFF9D12DED3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
